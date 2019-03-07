@@ -1,0 +1,51 @@
+
+/*namecard layput*/ 
+#nameCard {
+  height: 300px;
+  width: 500px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 70% 30% ;
+  border: 1px solid black;
+   
+}
+
+/*name&intro*/
+.name {
+  padding: 50px;
+}
+.intro {
+  padding-left: 40px;
+}
+
+/*phto */
+.photo {
+  width:100px;
+    height: 100px;
+   border-radius: 50%;
+  margin-top:80px;
+ 
+}
+
+
+
+/*darktheme*/
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+   background-color: white;
+  color: black;
+}
+
+/*feedback*/
+
+.feedbackOnName {
+  color: red;
+} 
+
+.feedbackOnIntro {
+  color: red;
+}
